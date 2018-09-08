@@ -4,11 +4,14 @@ title: Contact
 permalink: /contact/
 ---
 
+## Officers
+*Co-Chairs*
+Dr. Kelsey Noack Myers
+Jolene L.U. Smith  
+
+*Outgoing Chair*
+Dr. Joshua Wells
 
 ### Contact Us:
 
-Fill in the form or [email me](mailto:{{site.email}}) to discuss your next project.
-
-{% include form.html %}
-
-{% include modal.html %}
+Email us at digsaa AT gmail DOT com
