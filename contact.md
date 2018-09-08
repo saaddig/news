@@ -5,12 +5,12 @@ permalink: /contact/
 ---
 
 ## Officers
-*Co-Chairs*
-Dr. Kelsey Noack Myers
-Jolene L.U. Smith  
+*Co-Chairs*  
+Dr. Kelsey Noack Myers  
+Jolene L.U. Smith    
 
-*Outgoing Chair*
-Dr. Joshua Wells
+*Outgoing Chair*  
+Dr. Joshua Wells  
 
 ### Contact Us:
 
