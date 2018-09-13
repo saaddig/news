@@ -22,7 +22,7 @@ navigation: # Navigation links
 tagline: >
   Home for the Society for American Archaeology's Digital Data Interest Group News and Updates.
 
-hero_img: posts/sleek_lg.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
+hero_img: posts/ddigpic.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
 
 email: ddigsaa@gmail.com # email for form submission
 
