@@ -3,34 +3,33 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  {% seo %}
-
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/img/icons/apple-touch-icon.png?v=qA3OXqyw77' | relative_url }}">
-  <link rel="icon" type="image/png" sizes="32x32" href="{{'/assets/img/icons/favicon-32x32.png?v=qA3OXqyw77' | relative_url }}">
-  <link rel="icon" type="image/png" sizes="16x16" href="{{'/assets/img/icons/favicon-16x16.png?v=qA3OXqyw77' | relative_url }}">
-  <link rel="manifest" href="{{ '/assets/img/icons/manifest.json?v=qA3OXqyw77' | relative_url }}">
-  <link rel="mask-icon" href="{{ '/assets/img/icons/safari-pinned-tab.svg?v=qA3OXqyw77' | relative_url }}" color="#5bbad5">
-  <!--[if IE]><link rel="shortcut icon" href="/assets/img/icons/favicon.ico?v=qA3OXqyw77"><![endif]-->
-  <link rel="shortcut icon" href="{{ '/assets/img/icons/favicon.ico?v=qA3OXqyw77' | relative_url }}">
-  <meta name="apple-mobile-web-app-title" content="Sleek">
-  <meta name="application-name" content="Sleek">
-  <meta name="msapplication-config" content="{{ '/assets/img/icons/browserconfig.xml?v=qA3OXqyw77' | relative_url }}">
-  <meta name="theme-color" content="#ffffff">
-
-  {% if site.google_tag_manager %}
-
-    {% include gtm.html %}
-
+  {% if site.plugins contains 'jekyll-seo-tag' or site.gems contains 'jekyll-seo-tag' %}
+    {% comment %}
+      Add metadata for search engines and social networks if jekyll-seo-tag plugin is enabled
+    {% endcomment %}
+    {% include head-seo.html %}
+  {% else %}
+    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html', '' | absolute_url }}">
   {% endif %}
 
-  <style class="inlineCSS">
-
-    {% include critical.css %}
-
-  </style>
-  <link rel="preload" href="{{ '/assets/css/main.css' | relative_url }}" as="style" onload="this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}"></noscript>
-  <script type="text/javascript">
-   {% include loadCss.js %}
+  <script>
+    /* Cut the mustard */
+    if ( 'querySelector' in document && 'addEventListener' in window ) {
+      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
+    }
   </script>
+
+  <link rel="stylesheet" href="{{ '/assets/stylesheets/main.css' | relative_url }}">
+  {% if site.data.theme.google_fonts %}
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family={% for font in site.data.theme.google_fonts %}{{ font.name | replace: ' ', '+' }}{% if font.weights %}:{% endif %}{{ font.weights | remove: ' ' }}{% if forloop.last != true %}|{% endif %}{% endfor %}">
+  {% endif %}
+
+  {% if site.plugins contains 'jekyll-feed' or site.gems contains 'jekyll-feed'%}
+    {% comment %}
+      Add Atom feed link if jekyll-feed plugin is enabled
+    {% endcomment %}
+    {% include head-feed.html %}
+  {% endif %}
 </head>
