@@ -14,18 +14,18 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 lang: en-US
-title: DDIG
-email:
+title: Digital Data Interest Group
+email: ddigsaa@gmail.com
 description:
 baseurl: # the optional subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: https://saaddig.github.io/news/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author:
-  name:
-  twitter:
+  name: DDIG
+  twitter: saa_ddig
   picture:
-twitter_username:
-github_username:
-logo: # path of site logo, e.g. "/assets/images/logo.png"
+twitter_username: saa_ddig
+github_username: saaddig
+logo: "/assets/images/greenlogo.jpg" # path of site logo, e.g. "/assets/images/logo.png"
 search: # true, false (default)
 search_full_content: false # true, false (default)
 search_provider: # lunr (default), algolia
@@ -82,4 +82,4 @@ defaults:
       type: posts
     values:
       layout: post
-      read_time: true
+      read_time: false
