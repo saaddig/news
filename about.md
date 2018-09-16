@@ -3,9 +3,11 @@ title: "About"
 layout: about
 ---
 
+This site is a space for news and updates from the Society for American Archaeology's Digital Data Interest Group, maintained by members. This website does not use cookies or collect personal information.
+
 From [the Society for American Archaeology's Interest Groups page](http://www.saa.org/ForMembers/InterestGroups/DigitalDataInterestGroup/tabid/151/Default.aspx):
 
-## Statement of Purpose
+## DDIG Statement of Purpose
 
 The Digital Data Interest Group is organized to promote the preservation and sharing of archaeological data that are maintained in digital form. The long-term conservation and protection of the archaeological record demands not only that we preserve digital documents, images, and databases, but also that we make these information resources available to other scholars so that they may be effectively used to advance archaeological understandings of the past. The interest group will seek ways to foster the development of shared digital archives of archaeological data using software that can maximize their research value while securing the confidentiality of sensitive information, and ensuring that data sources are properly credited.
 
