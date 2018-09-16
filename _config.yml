@@ -17,8 +17,8 @@ lang: en-US
 title: Digital Data Interest Group
 email: ddigsaa@gmail.com
 description:
-baseurl: # the optional subpath of your site, e.g. "/blog"
-url: https://saaddig.github.io/news/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl: /news # the optional subpath of your site, e.g. "/blog"
+url: https://saaddig.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author:
   name: DDIG
   twitter: saa_ddig
