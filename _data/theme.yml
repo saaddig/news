@@ -35,5 +35,6 @@ google_fonts:
 
 navigation_pages:
   - about.md
-  - contact.md
   - 2019_meeting.md
+  - contact.md
+  - categories.md
