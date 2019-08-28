@@ -17,7 +17,7 @@ Moderators: Jolene Smith and Kelsey Noack Myers
 Overview:  
 This session will feature 5 minute “lightning talk” demonstrations of digital tools and quick tutorials on helpful skills. Examples could be things like “How to upload a preprint to an open repository” or “Making an interactive map with Storymap.js and Google Sheets.” Do you know about a tool or skill that’s useful and accessible to colleagues with beginner or intermediate digital archaeology experience? Propose a tutorial!  
 
-Submit your topic here by 9/3: https://forms.gle/kuEG2b2dwE21z4hJ6
+Submit your topic idea to us by 9/3: https://forms.gle/kuEG2b2dwE21z4hJ6
 
 
 ## Session Title: Digital Archaeological Methods in the Commercial Sector
@@ -39,3 +39,7 @@ After last year’s successful triple-interest group meeting with DDIG, Quantarc
 # E-COMMUNITIES
 
 SAA staff will discontinue email distribution to interest groups at the end of 2019 in favor of the new e-communities on the SAA website. In the meantime, we will continue to provide announcements here as well as in the e-community. Stay tuned for another post coming soon about how to join our e-community and ensure that you continue receiving interest group communications.
+
+
+Feel free to reach out with any questions, ideas, or considerations,
+Jolene Smith and Kelsey Noack Myers, DDIG Co-Chairs
