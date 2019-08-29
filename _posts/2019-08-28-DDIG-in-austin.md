@@ -1,5 +1,5 @@
 ---
-title: "SAA 20220 DDIG-sponsored sessions and planning"
+title: "SAA 2020 DDIG-sponsored sessions and planning"
 categories:
   - SAA2020
 ---
